@@ -1,13 +1,16 @@
-import './App.css'
+import React from 'react';
+import Logins from './components/Logins';
+
 
 function App() {
 return (
     <>
       <div>
-        App
+        <Logins />
       </div>
     </>
   )
 }
 
-export default App
+export default App;
+
